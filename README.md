@@ -5,8 +5,8 @@ Horiseon starter code refactored to meet accessibility standards.
 Objective was to follow accessibility standards and improve search engine optimization. This goal was achieved by:
   <ol>
   <li>Writing Semantic HTML;</li>
-  <li>Organizing HTML elements such that they adhere to semantic structure;</li>
-  <li>Consolidating CSS selectors and properties to conform to semantic structure;</li>
+  <li>organizing HTML elements such that they adhere to semantic structure;</li>
+  <li>consolidating CSS selectors and properties to conform to semantic structure;</li>
   <li>and modifying HTML elements to comply with accessbility standards.</li>
   </ol>
 
