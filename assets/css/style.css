@@ -46,8 +46,11 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
+article {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    object-fit: cover;
 }
 /* Created image element, adjusted selector */
 #hero {
@@ -72,6 +75,11 @@ main {
     display: inline-block;
     margin-left: 20px;
 }
+
+p {
+    font-size: 16px;
+}
+
 /* Swapped div for aside, adjusted selectors */
 aside {
     margin-right: 20px;
