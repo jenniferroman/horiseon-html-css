@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Horiseon Services</title>
+    <title>Horiseon Services</title> <!-- Make title concise and descriptive -->
 </head>
 
 <body>
-    <header>
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <nav>
+    <header> <!-- Remove class selector. Swap <div> for <header> -->
+        <h1>Hori<span class="seo">seo</span>n</h1> <!-- Leave as is -->
+        <nav> <!-- Swap <div> for <nav> -->
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -25,26 +25,33 @@
         </nav>
     </header>
 
-    <article>
+    <article> <!-- Remove class selector. Swap <div> for <article> -->
+        <!--
+            Remove img from CSS and place here instead, using <img> tag with src attribute.
+            Include alt attribute as well for accessibility. Add id selector.
+        -->
         <img id="hero" src="assets/images/digital-marketing-meeting.jpg"
             alt="Four individuals in a meeting room. White board with notes." />
     </article>
 
-    <main>
-        <!-- SEO Section -->
-        <section>
+    <main> <!-- Remove class selector. Swap <div> for <main> -->
+        <section> <!-- Remove id selector. Swap <div> for <section> -->
+            <!--
+                Remove <img> class selector. Add new id selector. Add alt attribute for accessibility. 
+            -->
             <img id="float-left" src="./assets/images/search-engine-optimization.jpg"
                 alt="Birds-eye view of a laptop and notebook containing SEO notes." />
-            <!-- Make images accessible with alt attribute -->
-            <h2>Search Engine Optimization</h2> <!-- insert class selector in h2? Or in section tag? -->
+            <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they
                 travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase
                 your visibility and find the right customers for your business.
             </p>
         </section>
-        <!-- ORM Section -->
-        <section> <!-- Swap div for section tag -->
+        <section> <!-- Remove id selector. Swap <div> for <section> -->
+            <!--
+                Remove <img> class selector. Add new id selector. Add alt attribute for accessibility. 
+            -->
             <img id="float-right" src="./assets/images/online-reputation-management.jpg"
                 alt="Laptop screen with data charts titled reputation." />
             <h2>Online Reputation Management</h2>
@@ -54,8 +61,10 @@
                 you the control over what potential customers see when they search for your business.
             </p>
         </section>
-        <!-- SMM Section -->
-        <section> <!-- Swap div for section tag -->
+        <section> <!-- Remove id selector. Swap <div> for <section> -->
+            <!--
+                Remove <img> class selector. Add new id selector. Add alt attribute for accessibility. 
+            -->
             <img id="float-left" src="./assets/images/social-media-marketing.jpg"
                 alt="Birds-eye view of social media logos and symbols spread on table." />
             <h2>Social Media Marketing</h2>
@@ -67,9 +76,10 @@
         </section>
     </main>
 
-    <aside>
-        <section>
+    <aside> <!-- Remove class selector. Swap <div> for <aside> -->
+        <section> <!-- Remove class selector. Swap <div> for <section> -->
             <h3>Lead Generation</h3>
+            <!-- Add alt attribute to <img> for accessibility. -->
             <img src="./assets/images/lead-generation.png"
                 alt="Logo suggesting their service reduces workload while increasing profits." />
             <p>
@@ -77,16 +87,18 @@
                 to your website.
             </p>
         </section>
-        <section>
+        <section> <!-- Remove class selector. Swap <div> for <section> -->
             <h3>Brand Awareness</h3>
+            <!-- Add alt attribute to <img> for accessibility. -->
             <img src="./assets/images/brand-awareness.png" alt="Logo suggesting their service increases visibility." />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility
                 for your business.
             </p>
         </section>
-        <section>
+        <section> <!-- Remove class selector. Swap <div> for <section> -->
             <h3>Cost Management</h3>
+            <!-- Add alt attribute to <img> for accessibility. -->
             <img src="./assets/images/cost-management.png" alt="Logo containing a gear and coins." />
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer
@@ -94,7 +106,7 @@
             </p>
         </section>
     </aside>
-    <footer> <!-- Swap div for a semantic tag: Footer -->
+    <footer> <!-- Remove class selector. Swap <div> for <footer> -->
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
