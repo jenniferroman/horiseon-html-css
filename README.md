@@ -1,5 +1,7 @@
 # Horiseon Project
-Horiseon starter code refactored to meet accessibility standards. 
+Horiseon starter code refactored to meet accessibility standards. Visit <a href="https://jenniferroman.github.io/horiseon-html-css">deployed application</a>.
+
+![Horiseon Screenshot](https://github.com/jenniferroman/horiseon-html-css/blob/bc6da9fe2e7b862b7246b1c8dceb285803d64f0a/Horiseon%20Screenshot.png)
 
 ## Description
 Objective was to follow accessibility standards and improve search engine optimization. This goal was achieved by:
@@ -15,6 +17,7 @@ Here are the resources I utilized in order to acquire the necessary knowledge an
 <ul>
   <li><a href="https://www.youtube.com/watch?v=bOUhq46fd5g&t=502s">ByteGrad Tips</a></li>
   <li><a href="https://www.codecademy.com/courses/learn-html/lessons/semantic-html/exercises/introduction-to-semantic-html">Codecademy: Introduction to Semantic HTML</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN Web Docs</a></li>
 </ul>
 
 
